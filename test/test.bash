@@ -5,7 +5,7 @@ dire=~
 
 cd $dir/ros2_ws
 colcon build
-sourc 4dir/.bashrc
+source 4dir/.bashrc
 timeout 10 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
