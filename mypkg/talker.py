@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2022 Takumi Fukazawa
+# SPDX-License-Identifier: BSD-3-Clause
 import rclpy
 from  rclpy.node import Node
 from  person_msgs.msg import Person
@@ -5,7 +7,7 @@ from  person_msgs.msg import Person
 class Talker():
     def __init__(self,node):
         self.pub = node.create_publisher(Person, "person", 10)
-        self.n = 0
+        self.n = 1
         node.create_timer(0.5, self.cb)
                                                                     
     def cb(self):

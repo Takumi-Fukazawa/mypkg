@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2022 Takumi Fukazawa
+# SPDX-License-Identifier: BSD-3-Clause
 import rclpy
 from rclpy.node import Node
 from person_msgs.msg import Person
