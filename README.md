@@ -1,5 +1,5 @@
 #taiker&listenerコマンド
-* talkerで送った文字列をlistenerに表示する
+* ランダムに生成したアルファベットの文字列をlistenerに表示する
 
 ![test](https://github.com/Takumi-Fukazawa/mypkg/actions/workflows/test.yml/badge.svg)
 
@@ -13,25 +13,23 @@
 このディレクトリ内で以下のコマンドを実行できる
 
 ## デモンストレーション
-talkerで送った文字列をlistenerに表示する。
+ ランダムに生成したアルファベットの文字列をlistenerに表示する
 * 使用例
  * 端末1(talker)
 ```
- $ ros2 run mypkg talker             　　　　 /#実行
- $ 文字列を入力してください Hello everyone.   /#「文字列を入力してください｝の後に任意の文字列を入力してEnter
- $ 文字列を入力してください こんにちは皆さん。
- $ 文字列を入力してください Nice to meet you.
- $ 文字列を入力してください よろしくお願いします。
+ $ ros2 run mypkg talker             　　　　 /#実行(Ctrl+Cで終了)
 
 ```
  * 端末2(listener)
 ```
  $ ros2 run mypkg listener                     /#実行
- $ [INFO] [1672389632.282577500] [listener]: Listen: person_msgs.msg.Person(message='Hello everyone.', log=1) 
- /#～(message='[talkerから送られてきた文字列]', log=[送られてきた順に割り振られた番号])が表示される
- $ [INFO] [1672389643.553213700] [listener]: Listen: person_msgs.msg.Person(message='こんにちは皆さん。', log=2)
- $ [INFO] [1672389650.016655300] [listener]: Listen: person_msgs.msg.Person(message='Nice to meet you.', log=3)
- $ [INFO] [1672389657.427276700] [listener]: Listen: person_msgs.msg.Person(message='よろしくお願いします。', log=4)
+ $ [INFO] [1672476341.589967700] [listener]: Listen: person_msgs.msg.Person(message='hClbzDgknY', log=19)
+ /#～(message='[ランダムに生成したアルファベットの文字列]', log=[送られてきた順に割り振られた番号])が表示される
+ $ [INFO] [1672476342.081379000] [listener]: Listen: person_msgs.msg.Person(message='CkvxgLpHDW', log=20)
+ $ [INFO] [1672476342.580624000] [listener]: Listen: person_msgs.msg.Person(message='fKTDsh7b80', log=21)
+ $ [INFO] [1672476343.080695800] [listener]: Listen: person_msgs.msg.Person(message='r1Wr3Afu4P', log=22)
+ $ [INFO] [1672476343.580590200] [listener]: Listen: person_msgs.msg.Person(message='IxCPxZJTNK', log=23)
+ $ [INFO] [1672476344.080744400] [listener]: Listen: person_msgs.msg.Person(message='vRObnWJqAY', log=24)
 
 ```
 ## 必要なソフトウェア
