@@ -15,12 +15,13 @@
 
 ## デモンストレーション
  ランダムに生成したアルファベットの文字列をlistenerに表示する  
-* 使用例 
+* 使用例 <br>
 端末1(talker)
 ```
  $ ros2 run mypkg talker             　　　　 /#実行(Ctrl+Cで終了)
 
 ```     
+<br>
 端末2(listener)
 ```
  $ ros2 run mypkg listener                     /#実行
