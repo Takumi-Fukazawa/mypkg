@@ -1,4 +1,4 @@
-#taiker&listenerコマンド
+##taiker&listenerコマンド
 * ランダムに生成したアルファベットの文字列をlistenerに表示する
 
 ![test](https://github.com/Takumi-Fukazawa/mypkg/actions/workflows/test.yml/badge.svg)
