@@ -21,7 +21,7 @@
  $ ros2 run mypkg talker             　　　　 /#実行(Ctrl+Cで終了)
 
 ```  
-端末2(listener)
+  端末2(listener)
 ```
  $ ros2 run mypkg listener                     /#実行
  $ [INFO] [1672476341.589967700] [listener]: Listen: person_msgs.msg.Person(message='hClbzDgknY', log=19)
