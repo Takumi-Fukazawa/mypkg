@@ -20,7 +20,7 @@
 ```
  $ ros2 run mypkg talker             　　　　 /#実行(Ctrl+Cで終了)
 
-```
+```  
 端末2(listener)
 ```
  $ ros2 run mypkg listener                     /#実行
