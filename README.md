@@ -5,14 +5,6 @@
 ![test](https://github.com/Takumi-Fukazawa/mypkg/actions/workflows/test.yml/badge.svg)
 
 
-## ダウンロード方法
-*  操作
- ```
- $ git https://github.com/Takumi-Fukazawa/mypkg/tree/master /#手元にリポジトリをコピー`
- $ cd ~/ros2_ws/src/mypkg/mypkg                             /#作られたディレクトリに移動
-````
-このディレクトリ内で以下のコマンドを実行できる
-
 ## デモンストレーション
  ランダムに生成したアルファベットの文字列をlistenerに表示する  
 * 使用例 
