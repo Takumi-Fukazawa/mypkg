@@ -18,7 +18,7 @@
 * 使用例 
 * 端末1(talker)
 ```
- $ ros2 run mypkg talker             　　　　 /#実行(Ctrl+Cで終了)
+ $ ros2 run mypkg talker             　　　　 /#実行
 
 ``` 
    
@@ -36,7 +36,7 @@
 ```
 ## 必要なソフトウェア
 * Python
-  * テスト済み: 3.7〜3.10
+  
 * ROS2
 
 ## テスト環境
